@@ -8,7 +8,7 @@ npm install https://github.com/Huqicheng/nodejs_reverse_proxy.git
 ```
 
 ## How to run the server
-'''
+```
 var proxy = require("nodejs_reverse_proxy");
 
 config = {
@@ -27,4 +27,4 @@ config = {
 var app = proxy.createServer(config);
 
 app.listen(config.port, config.ip);
-'''
+```
