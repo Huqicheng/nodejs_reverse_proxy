@@ -19,8 +19,3 @@ app2.listen(3002);
 
 
 
-app3.use("/", function(req, res) {
-    res.send("server3: 3003");
-});
-
-app3.listen(3003);
